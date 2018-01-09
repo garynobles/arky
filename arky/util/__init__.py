@@ -75,7 +75,7 @@ def getAllCoinsFromCryptoCompare():
     Retrieve of all of the coins acronyms on CryptoCompare
     """
     try:
-        r = json.loads(requests.get("https://www.cryptocompare.com/api/data/coinlist/").text)
+        r = json.loads(requests.get("https://www.cryptocompare.com/api/data/coinlist/").text.replace("*","")))
         coins = []
         for coin in r["Data"]:
             coins.append(coin)
