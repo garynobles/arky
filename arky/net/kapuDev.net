@@ -1,0 +1,37 @@
+{
+  "timeout": 5,
+  "begintime": [2017, 3, 21, 13],
+  "endpoints": "ark",
+  "familly": "ark",
+  "maxlimit": 50,
+  "maxvotepertx": 1,
+
+  "compressed": true,
+  "wif": "ba",
+  "marker": "50",
+  "slip44": "1",
+  "bip32": {
+    "private": 70615956,
+    "public": 70617039
+  },
+
+  "headers" : {
+		"Content-Type" : "application/json; charset=utf-8",
+    "port": "4100"
+	},
+
+  "port": 4100,
+  "peers": [
+    "51.15.67.153",
+    "51.15.87.150",
+    "199.247.24.132"
+  ],
+  "broadcast": 10,
+  
+  "explorer" : "https://explorer.devnet.kapunode.net",
+  "token" : "Dkapu",
+	"symbol" : "Dʞ",
+	"delegate": 51,
+  "blocktime": 8,
+  "blockreward": 2
+}
